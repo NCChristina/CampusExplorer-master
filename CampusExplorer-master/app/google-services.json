@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "656329838487",
+    "project_id": "campusexplorer-feb76",
+    "storage_bucket": "campusexplorer-feb76.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656329838487:android:f173aba748db7240dbfed2",
+        "android_client_info": {
+          "package_name": "com.example.campusexplorer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQIBb6ZfPq2vrK4n_uJA2ThY7p7jQHDQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

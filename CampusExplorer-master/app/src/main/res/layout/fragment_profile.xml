@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--AI ws used to get a circular profie picture holder.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginBottom="24dp">
+
+    <ImageView
+        android:id="@+id/ivProfilePicture"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_profile"
+        android:contentDescription="Profile picture"
+        android:background="@drawable/circle_background"
+        android:scaleType="centerCrop"
+        android:padding="4dp" />
+
+    <ImageButton
+        android:id="@+id/btnEditPicture"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/circle_background"
+        android:src="@drawable/ic_edit"
+        android:contentDescription="Edit profile picture" />
+</FrameLayout>
+
+    <TextView
+        android:id="@+id/tvUserPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUserEmail"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Points: 0"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="User Name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="user@example.com"
+        android:textSize="16sp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+</LinearLayout>
